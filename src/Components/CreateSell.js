@@ -7,7 +7,8 @@ const CreateSell = () => {
 
     return (
         <div style={{
-            backgroundColor: '#212428'
+            backgroundColor: '#212428',
+            paddingBottom: '50px'
         }}>
             <Container>
                 <Box>
@@ -18,7 +19,7 @@ const CreateSell = () => {
                 <Grid container gap={'20px'}>
                     {
                         SellItems.map((item, i) => (
-                            <Grid lg={3.8} md={6} xs={12} key={i} className='gridBox' sx={{
+                            <Grid lg={3.8} sm={6} xs={12} key={i} className='gridBox' sx={{
                                 transition: 'all .4s ease',
                                 boxShadow: '0 0 8px 0 rgba(0,0,0,.3)',
                                 padding: '30px',

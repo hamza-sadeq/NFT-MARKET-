@@ -133,3 +133,31 @@ export const SellItems = [
         decoration: <StyleOutlinedIcon sx={{fontSize: '15rem'}}/>
     }
 ]
+
+export const FooterItems = [
+    {
+        Title : 'Marketplace',
+        itemOne: 'All NFTs',
+        itemTwo: 'Music',
+        itemThree: 'Domain Names',
+        itemFour: 'Virtual World',
+        itemFive: 'Collectibles',
+    },
+    {
+        Title : 'Resources',
+        itemOne: 'Help Center',
+        itemTwo: 'Partners',
+        itemThree: 'Suggetions',
+        itemFour: 'Discord',
+        itemFive: 'Docs',
+    },
+    {
+        Title : 'Community',
+        itemOne: 'Community',
+        itemTwo: 'Documentations',
+        itemThree: 'Brand Assets',
+        itemFour: 'Blog',
+        itemFive: 'Forum',
+    },
+
+]

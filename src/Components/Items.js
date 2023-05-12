@@ -81,7 +81,7 @@ const Items = () => {
                                         position: 'absolute',
                                         top: '20px',
                                         zIndex: '4',
-                                        left: '30px',
+                                        left: '20px',
                                         transition: 'all .4s ease'
                                     }} />
                                     <img src={item.postImage} style={{
