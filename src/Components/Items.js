@@ -30,7 +30,7 @@ const Items = () => {
         }}>
             <Container>
                 <Box>
-                    <Typography variant='h3' color={'#fff'} >
+                    <Typography variant='h4' color={'#fff'} >
                         New Items
                     </Typography>
                 </Box>
@@ -75,13 +75,14 @@ const Items = () => {
                                     border: '1px solid hsla(0,0%,100%,.1)',
                                     boxShadow: '1px 1px 8px 1px rgba(0,0,0,.1)',
                                 }}>
-                                    <img src={item.posterImage} style={{
+                                    <img className='posterImage' src={item.posterImage} style={{
                                         width: '50px',
                                         borderRadius: '50%',
                                         position: 'absolute',
                                         top: '20px',
                                         zIndex: '4',
-                                        left: '30px'
+                                        left: '30px',
+                                        transition: 'all .4s ease'
                                     }} />
                                     <img src={item.postImage} style={{
                                         width: '90%',

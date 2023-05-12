@@ -1,3 +1,7 @@
+import AccountBalanceWalletOutlinedIcon from '@mui/icons-material/AccountBalanceWalletOutlined';
+import CloudUploadOutlinedIcon from '@mui/icons-material/CloudUploadOutlined';
+import StyleOutlinedIcon from '@mui/icons-material/StyleOutlined';
+
 export const links = [
     {
         LinkName:  'Home',
@@ -106,5 +110,26 @@ export const newItems = [
         postName : 'Metal Hands',
         Bid: 'Place a Bid',
         likes : '999'
+    }
+]
+
+export const SellItems = [
+    {
+        icon: <AccountBalanceWalletOutlinedIcon fontSize='large'/>,
+        name: 'Set up your Wallet',
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
+        decoration: <AccountBalanceWalletOutlinedIcon sx={{fontSize: '15rem'}}/>
+    },
+    {
+        icon: <CloudUploadOutlinedIcon fontSize='large'/>,
+        name: "Add your NFT's",
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
+        decoration: <CloudUploadOutlinedIcon sx={{fontSize: '15rem'}}/>
+    },
+    {
+        icon: <StyleOutlinedIcon fontSize='large'/>,
+        name: "Sell your NFT's",
+        description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
+        decoration: <StyleOutlinedIcon sx={{fontSize: '15rem'}}/>
     }
 ]
