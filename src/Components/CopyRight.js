@@ -1,7 +1,7 @@
 import { Container, Stack, Typography } from '@mui/material'
 import React from 'react'
 
-const CopyRight = () => {
+const CopyRight = () => {zz
     return (
         <Stack padding={'20px'} sx={{ backgroundColor: '#202020' }}>
             <Container>
