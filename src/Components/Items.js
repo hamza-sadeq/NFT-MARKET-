@@ -21,7 +21,7 @@ const Items = () => {
   };
 
   return (
-    <div
+    <div id="items"
       style={{
         backgroundColor: "#212428",
         padding: "50px 0",
@@ -34,7 +34,7 @@ const Items = () => {
           </Typography>
         </Box>
         <Swiper
-          data-aos="fade-left"
+          data-aos="zoom-in"
           data-offset="500"
           data-aos-duration="1000"
           modules={[Navigation, Pagination, Scrollbar, A11y]}

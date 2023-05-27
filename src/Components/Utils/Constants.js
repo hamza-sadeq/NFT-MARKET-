@@ -5,18 +5,23 @@ import StyleOutlinedIcon from '@mui/icons-material/StyleOutlined';
 export const links = [
     {
         LinkName:  'Home',
+        toSection: '#home'
     },
     {
         LinkName:  'Explore',
+        toSection: '#explore'
     },
     {
         LinkName:  'Pages',
+        toSection: '#items'
     },
     {
         LinkName:  'Activity',
+        toSection: '#create'
     },
     {
-        LinkName:  'Elements',
+        LinkName:  'Contact',
+        toSection: '#footer'
     }
 ]
 
@@ -67,64 +72,64 @@ export const Crypto = [
 
 export const newItems = [
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_2_4b38657ebb.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/music_2_bafa69498d.jpg' , 
+        posterImage: '/Images/posterFace/Bird.jpg',
+        postImage : '/Images/posterImages/Fantasy.jpg' , 
         postName : 'Queen',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_thumbnail_e7249ef21f.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/static_1_994dcbb547.jpg' , 
+        posterImage: '/Images/posterFace/Female 1.jpg',
+        postImage : '/Images/posterImages/Colorful.jpg' , 
         postName : 'Pinky Ocean',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_11_4c5cdc1ae2.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/static_4_830fb7f7e4.jpg' , 
+        posterImage: '/Images/posterFace/Dabdoob.jpg',
+        postImage : '/Images/posterImages/Tigers.jpg' , 
         postName : 'Two Tigers',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_5_2f55fed606.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/anim_3_a8042e4306.webp' , 
+        posterImage: '/Images/posterFace/Rocket.jpg',
+        postImage : '/Images/posterFace/FreeWoman.webp' , 
         postName : 'Lady Copter',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_12_47423d1910.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/music_2_bafa69498d.jpg' , 
+        posterImage: '/Images/posterFace/BeardMan.jpg',
+        postImage : '/Images/posterImages/Bottle.webp' , 
         postName : 'Queen',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_8_fc87e2dcc4.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/anim_7_0c145b516e.webp' , 
+        posterImage: '/Images/posterFace/Female2.jpg',
+        postImage : '/Images/posterImages/Fantasy.jpg' , 
         postName : 'This is Our Story',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_thumbnail_e7249ef21f.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/crs_4_1a3700669c.jpg' , 
+        posterImage: '/Images/posterFace/Rocket2.jpg',
+        postImage : '/Images/posterImages/Lava.jpg' , 
         postName : 'Red Ocean',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_3_006cb69eb6.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/crs_3_4b42a0ac72.jpg' , 
+        posterImage: '/Images/posterFace/SmilyFace.jpg',
+        postImage : '/Images/posterImages/cool.jpg' , 
         postName : 'Hot Lava',
         Bid: 'Place a Bid',
         likes : '999'
     },
     {
-        posterImage: 'http://174.138.31.155:1337/uploads/author_9_3f92539ba9.jpg',
-        postImage : 'http://174.138.31.155:1337/uploads/music_1_114e4e28d4.jpg' , 
+        posterImage: '/Images/posterFace/Female 1.jpg',
+        postImage : '/Images/posterImages/Colorful2.jpg' , 
         postName : 'Metal Hands',
         Bid: 'Place a Bid',
         likes : '999'
@@ -136,19 +141,22 @@ export const SellItems = [
         icon: <AccountBalanceWalletOutlinedIcon fontSize='large'/>,
         name: 'Set up your Wallet',
         description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
-        decoration: <AccountBalanceWalletOutlinedIcon sx={{fontSize: '15rem'}}/>
+        decoration: <AccountBalanceWalletOutlinedIcon sx={{fontSize: '15rem'}}/>,
+        aos: 'fade-up'
     },
     {
         icon: <CloudUploadOutlinedIcon fontSize='large'/>,
         name: "Add your NFT's",
         description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
-        decoration: <CloudUploadOutlinedIcon sx={{fontSize: '15rem'}}/>
+        decoration: <CloudUploadOutlinedIcon sx={{fontSize: '15rem'}}/>,
+        aos: 'zoom-out'
     },
     {
         icon: <StyleOutlinedIcon fontSize='large'/>,
         name: "Sell your NFT's",
         description: 'Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem.',
-        decoration: <StyleOutlinedIcon sx={{fontSize: '15rem'}}/>
+        decoration: <StyleOutlinedIcon sx={{fontSize: '15rem'}}/>,
+        aos: 'fade-down'
     }
 ]
 

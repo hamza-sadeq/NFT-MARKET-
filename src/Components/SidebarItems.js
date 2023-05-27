@@ -4,18 +4,11 @@ import { Stack } from '@mui/material'
 
 const SidebarItems = () => {
   return (
-    <Stack display={'flex'} flexDirection={'column'} alignItems={'center'} padding={'100px 0'}>
+    <Stack padding={'100px 0'} textAlign={'center'}>
       {
         links.map((item, i) => (
           <div key={i} class="dropdown-link">
-            <a href="#" className='navLink'>{item.LinkName}</a>
-            <div class="dropdown-content">
-              <a href="#">Home Page 1</a>
-              <a href="#">Home Page 1</a>
-              <a href="#">Home Page 1</a>
-              <a href="#">Home Page 1</a>
-              <a href="#">Home Page 1</a>
-            </div>
+            <a href={item.toSection} className='navLink'>{item.LinkName}</a>
           </div>
         ))
       }

@@ -6,7 +6,7 @@ import '../App.css'
 const CreateSell = () => {
 
     return (
-        <div style={{
+        <div id='create' style={{
             backgroundColor: '#212428',
             paddingBottom: '50px'
         }}>
@@ -16,10 +16,10 @@ const CreateSell = () => {
                         Create and Sell Now
                     </Typography>
                 </Box>
-                <Grid container gap={'20px'} data-aos = 'zoom-in' data-offset = '500' data-aos-duration="1000">
+                <Grid container gap={'20px'}>
                     {
                         SellItems.map((item, i) => (
-                            <Grid lg={3.8} sm={6} xs={12} key={i} className='gridBox' sx={{
+                            <Grid lg={3.8} sm={6} xs={12} key={i}  data-aos = {item.aos} data-offset = '500' data-aos-duration="1000" className='gridBox' sx={{
                                 transition: 'all .4s ease',
                                 boxShadow: '0 0 8px 0 rgba(0,0,0,.3)',
                                 padding: '30px',

@@ -3,10 +3,11 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 .HomePage {
-  background-image: url('http://gigaland.on3-step.com/img/background/8.jpg');
+  background-image: url('/public/Images/BackGround.jpg');
   min-height: 100vh;
   background-repeat: no-repeat;
   background-position: center;

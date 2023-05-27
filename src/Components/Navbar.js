@@ -56,14 +56,7 @@ const Navbar = () => {
           }}>
             {links.map((item, i) => (
               <div class="dropdown-link">
-                <a href="#" className='navLink'>{item.LinkName}</a>
-                <div class="dropdown-content">
-                  <a href="#">Home Page 1</a>
-                  <a href="#">Home Page 1</a>
-                  <a href="#">Home Page 1</a>
-                  <a href="#">Home Page 1</a>
-                  <a href="#">Home Page 1</a>
-                </div>
+                <a href={item.toSection} className='navLink'>{item.LinkName}</a>
               </div>
             ))}
           </Box>

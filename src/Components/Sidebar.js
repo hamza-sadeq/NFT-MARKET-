@@ -18,28 +18,30 @@ const Sidebar = () => {
                 <span style={{
                     top: isClosed ? '50%' : '75%',
                     transform: isClosed ? 'rotate(-45deg)' : 'rotate(0deg)',
-                    backgroundColor: isOpen ? 'rgb(255, 52, 63)' : '#fff'
+                    backgroundColor: isOpen ? '#fff' : 'rgb(255, 52, 63)'
                 }}></span>
                 <span style={{
                     display: isClosed ? 'none' : 'block',
-                    backgroundColor: isOpen ? 'rgb(255, 52, 63)' : '#fff'
+                    backgroundColor: isOpen ? '#fff' : 'rgb(255, 52, 63)'
                 }}></span>
                 <span style={{
                     bottom: isClosed ? '45%' : '75%',
                     transform: isClosed ? 'rotate(45deg)' : 'rotate(0deg)',
-                    backgroundColor: isOpen ? 'rgb(255, 52, 63)' : '#fff'
+                    backgroundColor: isOpen ? '#fff' : 'rgb(255, 52, 63)'
                 }}></span>
             </div>
             <div style={{
-                backgroundColor: '#000000d2',
+                backgroundColor: 'rgb(255, 52, 63)',
                 minHeight: '100vh',
                 position: 'fixed',
                 top: '0',
                 left: '0',
-                minWidth: '100%',
                 transition: 'all .4s ease',
-                opacity: isOpen ? '1' : '-1',
-                display: isOpen ? 'block' : 'none'
+                zIndex: '10',
+                transform: isOpen ? 'translateX(0%)' : 'translateX(100%)',
+                textAlign: 'center',
+                alignItems: 'center',
+                minWidth: '100%'
             }}>
                 <div style={{
                     zIndex: '5',

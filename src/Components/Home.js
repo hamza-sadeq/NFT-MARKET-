@@ -21,11 +21,11 @@ const Home = () => {
   ]
 
   return (
-    <div className='HomePage'>
+    <div className='HomePage' id='home'>
       <Navbar />
       <Container>
         <Grid container>
-          <Grid item md={6} xs={12} data-aos = 'fade-right' data-offset = '500' data-aos-duration="1000" padding={'100px 0'} sx={{
+          <Grid item md={6} xs={12} data-aos = 'fade-down' data-offset = '500' data-aos-duration="1000" padding={'100px 0'} sx={{
             textAlign: {md: 'start' , xs: 'center'}
           }}>
             <Typography variant='h6' color={'#ff343f'} fontSize={'18px'}>
@@ -70,11 +70,11 @@ const Home = () => {
               }
             </Grid>
           </Grid>
-          <Grid item md={6} xs={12} data-aos = 'fade-left' data-offset = '500' data-aos-duration="1000" sx={{
+          <Grid item md={6} xs={12} data-aos = 'fade-up' data-offset = '500' data-aos-duration="1000" sx={{
             display: {md: 'block' , xs: 'none'}
           }}>
             <div>
-              <img src='http://gigaland.on3-step.com/img/misc/women-with-vr.png' style={{
+              <img src='/Images/women-with-vr.png' style={{
                 width: '100%'
               }}/>
             </div>
