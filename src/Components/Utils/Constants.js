@@ -23,27 +23,45 @@ export const links = [
 export const Crypto = [
     {
         image : 'http://gigaland.on3-step.com/img/wallet/1.png' ,
-        companyName : 'Metamask'
+        companyName : 'Metamask',
+        aosdata : 'fade-up', 
+        aosoffset : '500',
+        aosduration : '1000' 
     },
     {
         image : 'http://gigaland.on3-step.com/img/wallet/2.png' ,
-        companyName : 'Bitski'
+        companyName : 'Bitski',
+        aosdata : 'fade-down', 
+        aosoffset : '500',
+        aosduration : '1000' 
     },
     {
         image : 'http://gigaland.on3-step.com/img/wallet/3.png' ,
-        companyName : 'Fortmatic'
+        companyName : 'Fortmatic',
+        aosdata : 'zoom-in', 
+        aosoffset : '500',
+        aosduration : '1000' 
     },
     {
         image : 'http://gigaland.on3-step.com/img/wallet/4.png' ,
-        companyName : 'WalletConnect'
+        companyName : 'WalletConnect',
+        aosdata : 'zoom-in', 
+        aosoffset : '500',
+        aosduration : '1000' 
     },
     {
         image : 'http://gigaland.on3-step.com/img/wallet/5.png' ,
-        companyName : 'Coinbase Wallet'
+        companyName : 'Coinbase Wallet',
+        aosdata : 'fade-down', 
+        aosoffset : '500',
+        aosduration : '1000' 
     },
     {
         image : 'http://gigaland.on3-step.com/img/wallet/6.png' ,
-        companyName : 'Arkane'
+        companyName : 'Arkane',
+        aosdata : 'fade-up', 
+        aosoffset : '500',
+        aosduration : '1000' 
     },
 ]
 

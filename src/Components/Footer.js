@@ -6,7 +6,7 @@ const Footer = () => {
     return (
         <Stack sx={{ backgroundColor: '#202020' }} borderBottom={'1px solid gray'}>
             <Container>
-                <Grid container padding={'60px 0'}>
+                <Grid container padding={'60px 0'} data-aos = 'fade-up' data-offset = '500' data-aos-duration="1000">
                     {
                         FooterItems.map((item, i) => (
                             <Grid item lg={3} md={6} xs={12} key={i}>

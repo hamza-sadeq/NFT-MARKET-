@@ -16,7 +16,7 @@ const CreateSell = () => {
                         Create and Sell Now
                     </Typography>
                 </Box>
-                <Grid container gap={'20px'}>
+                <Grid container gap={'20px'} data-aos = 'zoom-in' data-offset = '500' data-aos-duration="1000">
                     {
                         SellItems.map((item, i) => (
                             <Grid lg={3.8} sm={6} xs={12} key={i} className='gridBox' sx={{

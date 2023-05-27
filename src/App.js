@@ -6,6 +6,9 @@ import Items from './Components/Items'
 import CreateSell from './Components/CreateSell'
 import Footer from './Components/Footer'
 import CopyRight from './Components/CopyRight'
+import AOS from 'aos';
+import 'aos/dist/aos.css';
+AOS.init();
 const App = () => {
   return (
     <>

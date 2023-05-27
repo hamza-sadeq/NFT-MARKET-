@@ -1,7 +1,7 @@
 import { Container, Stack, Typography } from '@mui/material'
 import React from 'react'
 
-const CopyRight = () => {zz
+const CopyRight = () => {
     return (
         <Stack padding={'20px'} sx={{ backgroundColor: '#202020' }}>
             <Container>
@@ -15,7 +15,7 @@ const CopyRight = () => {zz
                     <Typography margin={'0 30px'} color={'#777'} sx={{
                         fontSize: { md: '18px', xs: '13px' }
                     }}>
-                        © Copyright 2021 - Gigaland by Designesia
+                        © Copyright 2021 - Gigaland by <span style={{color: 'rgb(255, 52, 63)'}}>Hamza Mohamed</span>
                     </Typography>
                 </div>
             </Container>

@@ -10,7 +10,7 @@ const CryptoCompany = () => {
                 <Grid container>
                     {
                         Crypto.map((item, i) => (
-                            <Grid lg={2} md={4} sm={6} xs={12} key={i}>
+                            <Grid lg={2} md={4} sm={6} xs={12} key={i} data-aos = {item.aosdata} data-offset = {item.aosoffset} data-aos-duration={item.aosduration}>
                                 <Box sx={{
                                     border: '1px solid hsla(0,0%,100%,.1)',
                                     boxShadow: '1px 1px 8px 1px rgba(0,0,0,.1)',
